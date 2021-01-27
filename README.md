@@ -5,19 +5,20 @@
 
 In this project, sales of the 2010-2011 are based on.
 
-Variables:
+# Variables:
 
-# InvoiceNo: Invoice number. Nominal. A 6-digit integral number uniquely assigned to each transaction. If this code starts with the letter 'c', it indicates a cancellation.
+**InvoiceNo:** Invoice number. If this code starts with the letter 'c', it indicates a cancellation.
 
-StockCode: Product (item) code. Nominal. A 5-digit integral number uniquely assigned to each distinct product.
-Description: Product (item) name. Nominal.
+**StockCode:** Product (item) code. Nominal. 
 
-Quantity: The quantities of each product (item) per transaction. Numeric.
+**Description:** Product (item) name. Nominal.
 
-InvoiceDate: Invice date and time. Numeric. The day and time when a transaction was generated.
+**Quantity:** The quantities of each product (item) per transaction. Numeric.
 
-UnitPrice: Unit price. Numeric. Product price per unit in sterling (Â£).
+**InvoiceDate:** Invoice date and time. Numeric.
 
-CustomerID: Customer number. Nominal. A 5-digit integral number uniquely assigned to each customer.
+**UnitPrice:** Unit price. Numeric. Product price per unit in sterling.
 
-Country: Country name. Nominal. The name of the country where a customer resides.
+**CustomerID:** Customer number. Nominal.
+
+**Country:** Country name. Nominal.
